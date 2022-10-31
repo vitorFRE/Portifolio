@@ -1,0 +1,53 @@
+.header_bg {
+  background-color: #fff;
+}
+.header {
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header_menu ul{
+  display: flex;
+  gap: 30px;
+}
+.header_menu ul li:not(:first-child) {
+  color: var(--Cinza);
+}
+.header_menu ul li:not(:first-child):hover {
+  color: var(--Roxa);
+}
+.header_menu_icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sublinha_roxa {
+  position: relative;
+}
+
+.sublinha_roxa::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: var(--Roxa);
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+  left: -1px;
+}
+
+@media (max-width:600px) {
+  .header_menu_icons {
+    display: none;
+  }
+  .header_menu ul {
+    gap: 15px;
+  }
+}
