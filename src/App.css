@@ -15,9 +15,14 @@ body {
   background: linear-gradient(127.48deg, #391E86 2.21%, #220B2E 53.35%) no-repeat;
   margin: 0px;
   color: var(--Black);
-  --Black: #292d33;
+  --Black: #111;
   --Roxa: #391E86;
   --Cinza: #696B73;
+  --Dourado: #FCCA1C ;
+}
+
+.Dourado {
+  color: var(--Dourado);
 }
 
 a {

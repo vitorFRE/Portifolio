@@ -1,0 +1,16 @@
+:global(.button_dourado) {
+  background-color: var(--Dourado);
+  padding: 11px 42px;
+  border: none;
+  border-radius: 6px;
+  color: var(--Roxa);
+  cursor: pointer;
+}
+:global(.button_roxo) {
+  background-color: var(--Roxa);
+  padding: 11px 42px;
+  border: none;
+  border-radius: 6px;
+  color: var(--Dourado);
+  cursor: pointer;
+}

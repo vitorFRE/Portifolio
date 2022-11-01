@@ -1,6 +1,7 @@
 // Header Imagens
 import Header_Logo from '../../assets/Header_logo.svg';
-
+// Introdução imagem
+import Intro_Img from '../../assets/Intro_Img.svg';
 // Icons
 import GitHub_Icon from '../../assets/GitHub-logo.svg';
 import Linkedin_Icon from '../../assets/Linkedin-logo.svg';
@@ -10,6 +11,7 @@ const imagens = {
   Header_Logo,
   GitHub_Icon,
   Linkedin_Icon,
+  Intro_Img,
 };
 
 export default imagens;
