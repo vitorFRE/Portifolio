@@ -1,7 +1,7 @@
 .introducao {
   margin-top: 60px;
   display: grid;
-  grid-template-columns: auto 600px;
+  grid-template-columns: 1fr 1.4fr;
   align-items: center;
 }
 .introducao_text h1 {
@@ -31,12 +31,14 @@
 }
 
 .introducao_btns {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 .introducao_btns a:nth-child(1) button{
   display: flex;
+  justify-content: center;
 }
 .introducao_btns a:nth-child(1) button::before {
   background: url(../../assets/GitHub-logo-roxa.svg) no-repeat center center;
@@ -47,6 +49,7 @@
 }
 .introducao_btns a:nth-child(2) button{
   display: flex;
+  justify-content: center;
 }
 .introducao_btns a:nth-child(2) button::before {
   background: url(../../assets/Linkedin-Logo-dourado.svg) no-repeat center center;
@@ -54,4 +57,32 @@
   width: 26px;
   height: 26px;
   margin-right: 10px;
+}
+
+@media (max-width:750px) {
+  .introducao_text h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .img_credits {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+  }
+  }
+
+@media (max-width:700px) {
+.introducao {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.introducao_btns {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.introducao_btns button {
+  width: 100%;
+}
 }
