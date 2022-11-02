@@ -1,0 +1,29 @@
+.footer_bg {
+  margin-top: 120px;
+  background-color: white;
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer p a {
+  color: var(--Roxa);
+}
+
+@media (max-width: 600px) {
+  .footer p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
