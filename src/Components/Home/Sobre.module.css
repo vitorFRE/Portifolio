@@ -1,6 +1,31 @@
 .sobre {
   color: white;
   margin-top: 200px;
+  position: relative;
+}
+
+.sobre::after {
+  content: '</DIV>';
+  color: var(--Dourado);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  right: 10px;
+}
+.sobre::before {
+  content: '<DIV>';
+  color: var(--Dourado);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: -20px;
+  left: 10px;
 }
 
 .sobre h1::after {
