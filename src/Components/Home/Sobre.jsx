@@ -3,7 +3,7 @@ import styles from './Sobre.module.css';
 
 const Sobre = () => {
   return (
-    <div className={styles.sobre + ' container'}>
+    <div id="sobre" className={styles.sobre + ' container'}>
       <h1 className="T1-Exbold">Sobre Mim</h1>
       <h3 className="T3-Exbold">Vitor Santos</h3>
       <p>

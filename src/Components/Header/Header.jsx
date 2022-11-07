@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import i from '../Helper/Images';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,10 +15,10 @@ const Header = () => {
         <div className={styles.header_menu}>
           <ul className="T7-Semi">
             <li className={styles.sublinha_roxa}>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
             <li>
               <a href="/">Projetos</a>

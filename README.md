@@ -26,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/)
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
+- [RouterDom](https://reactrouter.com/en/main)
 
 ## 💻 Projeto
 
