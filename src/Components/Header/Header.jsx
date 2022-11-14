@@ -21,7 +21,7 @@ const Header = () => {
               <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="/">Projetos</a>
+              <Link to="/projetos">Projetos</Link>
             </li>
           </ul>
           <div className={styles.header_menu_icons}>

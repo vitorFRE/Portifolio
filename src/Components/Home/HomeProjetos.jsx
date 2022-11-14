@@ -16,7 +16,7 @@ const HomeProjetos = () => {
       <div className={styles.home_projetos_cards}>
         <ul className={styles.home_projetos_card}>
           <li>
-            <a href="https://ensome-vitor.netlify.app/">
+            <a href="https://ensome-vitor.netlify.app/" target="_blank">
               <img src={i.ensome} alt="Card Imagem" />
             </a>
           </li>
@@ -34,7 +34,9 @@ const HomeProjetos = () => {
 
         <ul className={styles.home_projetos_card}>
           <li>
-            <img src={i.weather} alt="Card Imagem" />
+            <a href="https://galaxyweather.netlify.app/" target="_blank">
+              <img src={i.weather} alt="Card Imagem" />
+            </a>
           </li>
           <li className={styles.card_titulo + ' T5-Bold'}>Weather</li>
           <li className={styles.card_descricao}>
@@ -50,17 +52,19 @@ const HomeProjetos = () => {
 
         <ul className={styles.home_projetos_card}>
           <li>
-            <img src={i.ensome} alt="Card Imagem" />
+            <a href="https://alura-tube-vitorfre.vercel.app/" target="_blank">
+              <img src={i.aluratube} alt="Card Imagem" />
+            </a>
           </li>
-          <li className={styles.card_titulo + ' T5-Bold'}>Ensome</li>
+          <li className={styles.card_titulo + ' T5-Bold'}>AluraTube</li>
           <li className={styles.card_descricao}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.
+            Projeto usando SupaBase ligado a um banco de dados para armazenar
+            links de videos.
           </li>
           <ul className={styles.cards_tag + ' T7-Semi'}>
             <li>Online</li>
-            <li>React Js</li>
-            <li>Router</li>
+            <li>Next Js</li>
+            <li>SupaBase</li>
           </ul>
         </ul>
       </div>
