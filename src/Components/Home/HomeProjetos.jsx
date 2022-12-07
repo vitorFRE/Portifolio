@@ -34,18 +34,19 @@ const HomeProjetos = () => {
 
         <ul className={styles.home_projetos_card}>
           <li>
-            <a href="https://galaxyweather.netlify.app/" target="_blank">
-              <img src={i.weather} alt="Card Imagem" />
+            <a href="https://copaqatar-vitor.netlify.app/" target="_blank">
+              <img src={i.copa} alt="Card Imagem" />
             </a>
           </li>
-          <li className={styles.card_titulo + ' T5-Bold'}>Weather</li>
+          <li className={styles.card_titulo + ' T5-Bold'}>CopaQatar</li>
           <li className={styles.card_descricao}>
-            App de previsão do tempo feito em react js, utilizando a API
-            OperWeather.
+            Site para ver informações sobre a copa do mundo Qatar,
+            Partidas,Grupos,Proximos Jogos,Jogo Atual, puxando dados de uma API.
           </li>
           <ul className={styles.cards_tag + ' T7-Semi'}>
             <li>Online</li>
             <li>React Js</li>
+            <li>API</li>
             <li>Router</li>
           </ul>
         </ul>
