@@ -1,116 +1,12 @@
-.sobre {
+.texto {
   color: white;
-  margin-top: 200px;
-  position: relative;
-}
-
-.sobre::after {
-  content: '</DIV>';
-  color: var(--Dourado);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  position: absolute;
-  right: 10px;
-}
-.sobre::before {
-  content: '<DIV>';
-  color: var(--Dourado);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  position: absolute;
-  top: -20px;
-  left: 10px;
-}
-
-.sobre h1::after {
-  content: '</H1>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-.sobre h1::before {
-  content: '<H1>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.sobre h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.sobre h3::after {
-  content: '</H1>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-.sobre h3::before {
-  content: '<H3>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.sobre p {
-  font-family: 'Open Sans';
-  font-style: normal;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 33px;
-  color: #AEA8A8;
-  position: relative;
+  font-size: 1.125rem;
+  line-height: 25px;
+  letter-spacing: 0.075rem;
 }
 
-.sobre p::before {
-  content: '<P>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-.sobre p::after {
-  content: '</P>';
-  color: var(--Roxa);
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-@media (max-width: 600px) {
-  .sobre {
-    margin-top: 50px;
-  }
-  .sobre h1 {
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .sobre h3 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 33px;
-  }
+.texto p {
+  margin-bottom: 1rem;
 }

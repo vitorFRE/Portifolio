@@ -1,0 +1,44 @@
+.projetos_container {
+  display: grid;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+  gap: 2px;
+}
+
+.projetos_container img {
+  opacity: .7;
+  transition-duration: 1s;
+}
+
+.projetos_container img:hover {
+  opacity: 1;
+}
+
+.repo_title {
+  margin-top: 150px;
+}
+
+.texto {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 25px;
+  letter-spacing: 0.075rem;
+}
+
+.texto p {
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 1060px) {
+  .projetos_container {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .projetos_container {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  }
+}

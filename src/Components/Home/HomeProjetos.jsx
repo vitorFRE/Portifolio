@@ -2,16 +2,12 @@ import React from 'react';
 import styles from './HomeProjetos.module.css';
 import i from '../Helper/Images';
 import { Link } from 'react-router-dom';
+import Title from '../Helper/Title';
 
 const HomeProjetos = () => {
   return (
     <section className={styles.home_projetos + ' container'}>
-      <div className={styles.home_projetos_titulo}>
-        <h2 className="T1-Exbold">Projetos</h2>
-        <Link to="/projetos">
-          <p className="T6-Bold">Veja Mais...</p>
-        </Link>
-      </div>
+      <Title text="Projetos" classe={styles.home_projetos_titulo} />
 
       <div className={styles.home_projetos_cards}>
         <ul className={styles.home_projetos_card}>
