@@ -14,10 +14,13 @@ const Introducao = () => {
           <span className="Dourado"> Front-End</span>
         </h1>
         <div className={styles.introducao_btns}>
-          <a href="https://github.com/vitorFRE">
+          <a href="https://github.com/vitorFRE" target="_blank">
             <Button outraClass={'T7-Semi'}>GitHub</Button>
           </a>
-          <a href="https://www.linkedin.com/in/vitor-santos-5744861b2/">
+          <a
+            href="https://www.linkedin.com/in/vitor-santos-5744861b2/"
+            target="_blank"
+          >
             <Button cor={'button_roxo'} outraClass={'T7-Semi'}>
               Linkedin
             </Button>
