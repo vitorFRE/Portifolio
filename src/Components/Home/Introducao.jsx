@@ -8,9 +8,7 @@ const Introducao = () => {
     <div className={styles.introducao + ' container'}>
       <div className={styles.introducao_text}>
         <h1 className="T3-Exbold">
-          Bem-Vindo(a) ao meu Portifólio. Eu sou o
-          <span className={styles.intro_nome + ' Dourado'}> Vitor</span>, um
-          desenvolvedor
+          Bem-Vindo(a) ao meu Portifólio! <br /> Sou um desenvolvedor
           <span className="Dourado"> Front-End</span>
         </h1>
         <div className={styles.introducao_btns}>
@@ -30,10 +28,10 @@ const Introducao = () => {
       <div className={styles.introducao_image}>
         <img src={i.Intro_Img} alt="Imagem de introdução" />
         <div className={styles.img_credits}>
-          Image by{' '}
+          Image by
           <a href="https://iconscout.com/contributors/woobrodesign">
             WOOBRO LTD
-          </a>{' '}
+          </a>
           on <a href="https://iconscout.com">IconScout</a>
         </div>
       </div>

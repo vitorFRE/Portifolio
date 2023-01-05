@@ -53,6 +53,30 @@ const Projetos = () => {
             <img src="https://raw.githubusercontent.com/vitorFRE/Projetos/main/img/06.png" />
           </span>
         </a>
+        <a href="https://galaxybike-vitor.netlify.app">
+          <span>
+            <img
+              src="https://raw.githubusercontent.com/vitorFRE/GalaxyBike/main/img.png"
+              alt="GalaxyBike"
+            />
+          </span>
+        </a>
+        <a href="https://galaxsolar-vitor.netlify.app/">
+          <span>
+            <img
+              src="https://raw.githubusercontent.com/vitorFRE/GalaxySolar/main/img.png"
+              alt="GalaxySolar"
+            />
+          </span>
+        </a>
+        <a href="https://bluegalaxy-vitor.netlify.app/">
+          <span>
+            <img
+              src="https://raw.githubusercontent.com/vitorFRE/BlueGalaxy/main/img.png"
+              alt="BlueGalaxy"
+            />
+          </span>
+        </a>
       </div>
       <Title
         classe={`container ${styles.repo_title}`}
